@@ -7,17 +7,47 @@
 </head>
 <body>
     <div style="text-align: center;">
-    <a href="nosotras.html">Nosotras</a>
-    <a href="productos.html">Productos</a>
-    <a href="inicio.html">Inicio</a>
+        <a href="inicio.html">inicio</a>
+        <a href="nosotros.html">nosotros</a>
+        <a href="productos.html">productos</a>
     </div>
     <div style="text-align: center;">
         <h1>Contactanos</h1>
-        <p>somos 24/7</p>
-        <img src="imagenes/depositphotos_180853378-stock-photo-customer-woman-choosing-cosmetics-with.jpg" width="40%">
-
+        <p>atendemos 24/7</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31728.546538480055!2d-75.59610572568357!3d6.254730100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428f16a4703fb%3A0xc6dff682cbe5f231!2sTiendas%20D1%20-%20Villa%20Hermosa!5e0!3m2!1ses-419!2sco!4v1756771992010!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <h2 style="text-align: center;">Llena el formulario</h2>
+    <div style="display: flex; justify-content: center;">
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="En mayusculas"> <br>
+            <label>Celular:</label>
+            <input type="number"> <br>
+            <label>Correo:</label>
+            <input type="email" required><br>
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" min="1980-01-01" max="2007-12-31"> <br>
+            <label>Edad:</label>
+            <input type= "number" min="18" max="50"> <br>
+            <label>Sube una foto:</label>
+            <input type="file" accept=".jpg, .png, .jpeg"> <br>
+            <label>Seleciona un genero</label> <br>
+            <input type="radio" name="genero" value="hombre">Hombre
+            <input type="radio" name="genero" value="mujer">Mujer
+            <input type="radio" name="genero" value="otro">Otro
+            <br>
+            <label>seleciona productos:</label>
+            <input type="checkbox" name="" value="Bananos">Bananos
+            <input type="checkbox" name="" value="Fresas">Fresas
+            <input type="checkbox" name="" value="Mangos">Mangos
 
-    
+
+            
+            <br> <br> <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">borrar</button>
+        </form>
+    </div>
+        
 </body>
 </html>
